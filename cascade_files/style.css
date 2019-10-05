@@ -1,0 +1,46 @@
+/*selector{
+	property:value;
+/*body{
+	background-image: url(tessa.jpg);
+	background-size: small;
+}
+
+h2{
+	color: red;
+text-align: center;
+border: 5px solid green;
+
+}
+p{
+	color: blue;
+}*/
+
+
+
+.container{
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+h1{
+	font-family: fantasy;
+	font-size: 3em;
+	border-bottom: 2px solid green;
+	border-right: 2px solid green;
+	border-left: 2px solid green;
+	text-align: center;
+	box-shadow: 4px 3px 4px 4px #888888;
+	margin-top: 10px;
+
+}
+img{
+	width: 450px;
+	height:450px;
+	margin: 1px;
+	transition: all 1s;
+
+}
+	img:hover{
+		transform: scale(1.1);
+	}
+
